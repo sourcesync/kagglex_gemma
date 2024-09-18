@@ -1,0 +1,6 @@
+tensorflow
+keras
+keras_nlp
+kagglehub
+kaggle-cli
+tensorflow-text
