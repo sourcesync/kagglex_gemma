@@ -1,0 +1,11 @@
+tensorflow
+keras>=3
+keras_nlp
+kagglehub
+tensorflow-text
+jupyterlab
+tqdm
+ipywidgets 
+widgetsnbextension
+langchain
+langchain-google-vertexai
