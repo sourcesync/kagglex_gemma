@@ -1,11 +1,8 @@
+keras-nlp
+keras>=3.3.3
 tensorflow
-keras>=3
-keras_nlp
-kagglehub
 tensorflow-text
+numpy==1.26.4
+pandas
 jupyterlab
-tqdm
-ipywidgets 
-widgetsnbextension
-langchain
-langchain-google-vertexai
+python-dotenv
