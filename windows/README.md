@@ -11,10 +11,15 @@ At this point, we've done minimal testing so YMMV :)
   * I basically did the following:
     * opened a windows powershell prompt
     * typed the following:
-    ```wsl.exe --install -d Ubuntu```
+    ```
+    $ wsl.exe --install -d Ubuntu
+    ```
     * I waited a minute or so and noticed it was hanging on a "waiting" message, so I hit Ctl-C and it continued the installation asking for a new Linux username and password
     * I entered your preferred Linux username and password (and record it for later use) and it dropped me into a Linux console
-    * At the Linux console, I immediately updating the Ubuntu packages like so: ```sudo apt-get update```
+    * At the Linux console, I immediately updating the Ubuntu packages like so: 
+    ```
+    $ sudo apt-get update
+    ```
     * I then went back into Windows and disabled all the Windows BitDefender firewall profiles
     * Then I rebooted the machine
 * Download and install Anaconda for Windows
@@ -32,7 +37,7 @@ conda create -n <custom_name> python=3.9
   * Activate the custom conda environment you just created
   * Clone the "kagglex_gemma" github repository and check-out the branch "gw/initial"
   * Install the packages in the requirements.txt file like so:
-```
-$ python -m pip install -r requirements.txt
-```
+    ```
+    $ python -m pip install -r requirements.txt
+    ```
   * Test everything via the test.ipynb notebook in this directory
