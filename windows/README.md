@@ -11,9 +11,7 @@ At this point, we've done minimal testing so YMMV :)
   * I basically did the following:
     * opened a windows powershell prompt
     * typed the following:
-```
-wsl.exe --install -d Ubuntu
-```
+    ```wsl.exe --install -d Ubuntu```
     * I waited a minute or so and noticed it was hanging on a "waiting" message, so I hit Ctl-C and it continued the installation asking for a new Linux username and password
     * I entered your preferred Linux username and password (and record it for later use) and it dropped me into a Linux console
     * At the Linux console, I immediately updating the Ubuntu packages lik so:
