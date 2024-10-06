@@ -1,0 +1,8 @@
+keras-nlp
+keras>=3.3.3
+tensorflow
+tensorflow-text
+numpy==1.26.4
+pandas
+jupyterlab
+python-dotenv
