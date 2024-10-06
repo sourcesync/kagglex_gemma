@@ -25,7 +25,7 @@ At this point, we've done minimal testing so YMMV :)
     * I then went back into Windows and disabled all the Windows BitDefender firewall profiles
     * Then I rebooted the machine
     * After reboot, I opened an Ubuntu console using the new Ubuntu option in the Windows start menu
-* Download and install Anaconda for Windows
+* Download and install Anaconda for Linux (not Windows):
   * I downloaded and ran this version: Anaconda3-2024.06-1-Linux-x86_64.sh Anaconda3-2024.06-1-Linux-x86_64.sh
     * Note that I moved that file from the download location in Windows to the Linux file system
     * I also changed the permissions adding the "x" chmod attribute so that I could execute it
