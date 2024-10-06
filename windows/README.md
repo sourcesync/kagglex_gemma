@@ -1,6 +1,6 @@
 # Introduction
 
-These are instructions for installing Keras Gemma support on windows:
+These are instructions for installing Keras Gemma support on windows using these methods:
 * Via WSL Ubuntu
 * Via Docker for Windows
 
