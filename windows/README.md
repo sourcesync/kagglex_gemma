@@ -25,7 +25,7 @@ At this point, we've done minimal testing so YMMV :)
     * I then went back into Windows and disabled all the Windows BitDefender firewall profiles
     * Then I rebooted the machine
     * After reboot, I opened an Ubuntu console using the new Ubuntu option in the Windows start menu
-* Download and install Anaconda for Linux (not Windows):
+* Download and install Anaconda for Linux (not Windows)
   * I downloaded and ran this version: Anaconda3-2024.06-1-Linux-x86_64.sh Anaconda3-2024.06-1-Linux-x86_64.sh
     * Note that I moved that file from the download location in Windows to the Linux file system
     * I also changed the permissions adding the "x" chmod attribute so that I could execute it
@@ -42,7 +42,7 @@ At this point, we've done minimal testing so YMMV :)
     ```
   * Activate the custom conda environment you just created
   * Clone the "kagglex_gemma" github repository and check-out the branch "gw/initial"
-  * Install the packages in the requirements.txt file like so:
+  * cd into the "windows" directory of the repo and install the packages in the requirements.txt file like so:
     ```
     $ python -m pip install -r requirements.txt
   * Test everything via the test.ipynb notebook located in this directory
