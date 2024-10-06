@@ -1,10 +1,12 @@
 # Introduction
 
-These are instructions for installing Keras Gemma support on windows.
+These are instructions for installing Keras Gemma support on windows:
+* Via WSL Ubuntu
+* Via Docker for Windows
 
 At this point, we've done minimal testing so YMMV :)
 
-# Windows 11
+# WSL Ubuntu
 
 * Install Ubuntu Linux via WSL:
   * There are various instructions and youtube videos, I recommend following the one that looks reasonable for your version of Windows.
@@ -40,3 +42,7 @@ At this point, we've done minimal testing so YMMV :)
     ```
     $ python -m pip install -r requirements.txt
   * Test everything via the test.ipynb notebook located in this directory
+
+# Docker For Windows
+
+TBD
