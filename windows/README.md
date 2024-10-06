@@ -31,13 +31,12 @@ At this point, we've done minimal testing so YMMV :)
     ```
   * If the above didn't work, you might need to log out of your Linux console and log back in, or just run another "bash" shell
   * Create a custom conda environment for python 3.9 like so:
-```
-conda create -n <custom_name> python=3.9
-```
+    ```
+    conda create -n <custom_name> python=3.9
+    ```
   * Activate the custom conda environment you just created
   * Clone the "kagglex_gemma" github repository and check-out the branch "gw/initial"
   * Install the packages in the requirements.txt file like so:
     ```
     $ python -m pip install -r requirements.txt
-    ```
-  * Test everything via the test.ipynb notebook in this directory
+  * Test everything via the test.ipynb notebook located in this directory
